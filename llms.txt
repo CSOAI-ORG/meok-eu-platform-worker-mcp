@@ -1,0 +1,24 @@
+# meok-eu-platform-worker-mcp
+
+> EU Platform Workers Directive (2024/2831) compliance — employment-status presumption, algorithmic-management disclosure, human oversight of significant decisions, worker data protection, member-state transposition tracking, misclassification-risk forecast. Targets EU gig-economy platforms (€20bn market). Transposition deadline 2 Dec 2026. By MEOK AI Labs.
+
+MCP server by MEOK AI Labs. Framework: fastmcp. Transport: stdio.
+
+## Tools
+- check_employment_status_presumption
+- check_algorithmic_management_disclosure
+- check_human_oversight_decisions
+- check_worker_personal_data_protection
+- check_algorithmic_transparency_consultation
+- check_member_state_transposition
+- forecast_misclassification_risk
+- prepare_eu_platform_audit_pack
+
+## Install
+```
+pip install meok-eu-platform-worker-mcp
+```
+
+## Links
+- PyPI: https://pypi.org/project/meok-eu-platform-worker-mcp/
+- Docs: https://meok.ai

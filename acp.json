@@ -1,0 +1,26 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "meok-eu-platform-worker-mcp",
+    "description": "EU Platform Workers Directive (2024/2831) compliance \u2014 employment-status presumption",
+    "version": "1.0.0",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "meok-eu-platform-worker-mcp"
+      }
+    ],
+    "capabilities": [
+      "check_employment_status_presumption",
+      "check_algorithmic_management_disclosure",
+      "check_human_oversight_decisions",
+      "check_worker_personal_data_protection",
+      "check_algorithmic_transparency_consultation",
+      "check_member_state_transposition",
+      "forecast_misclassification_risk",
+      "prepare_eu_platform_audit_pack"
+    ]
+  }
+}

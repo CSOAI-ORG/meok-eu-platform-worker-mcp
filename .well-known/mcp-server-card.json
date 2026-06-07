@@ -1,0 +1,37 @@
+{
+  "name": "meok-eu-platform-worker-mcp",
+  "title": "Meok Eu Platform Worker Mcp",
+  "description": "EU Platform Workers Directive (2024/2831) compliance \u2014 employment-status presumption, algorithmic-management disclosure, human oversight of significant decisions, worker data protection, member-state transposition tracking, misclassification-risk forecast. Targets EU gig-economy platforms (\u20ac20bn market). Transposition deadline 2 Dec 2026. By MEOK AI Labs.",
+  "version": "1.0.0",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "check_employment_status_presumption"
+    },
+    {
+      "name": "check_algorithmic_management_disclosure"
+    },
+    {
+      "name": "check_human_oversight_decisions"
+    },
+    {
+      "name": "check_worker_personal_data_protection"
+    },
+    {
+      "name": "check_algorithmic_transparency_consultation"
+    },
+    {
+      "name": "check_member_state_transposition"
+    },
+    {
+      "name": "forecast_misclassification_risk"
+    },
+    {
+      "name": "prepare_eu_platform_audit_pack"
+    }
+  ]
+}

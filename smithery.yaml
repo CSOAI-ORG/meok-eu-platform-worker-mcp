@@ -1,0 +1,34 @@
+name: meok-eu-platform-worker-mcp
+description: 'EU Platform Workers Directive (2024/2831) compliance — employment-status presumption'
+version: 1.0.0
+author: MEOK AI Labs
+homepage: https://proofof.ai
+repository: https://github.com/CSOAI-ORG/meok-eu-platform-worker-mcp
+license: MIT
+categories:
+- compliance
+- governance
+tools:
+- name: check_employment_status_presumption
+  description: check employment status presumption
+- name: check_algorithmic_management_disclosure
+  description: check algorithmic management disclosure
+- name: check_human_oversight_decisions
+  description: check human oversight decisions
+- name: check_worker_personal_data_protection
+  description: check worker personal data protection
+- name: check_algorithmic_transparency_consultation
+  description: check algorithmic transparency consultation
+- name: check_member_state_transposition
+  description: check member state transposition
+- name: forecast_misclassification_risk
+  description: forecast misclassification risk
+- name: prepare_eu_platform_audit_pack
+  description: prepare eu platform audit pack
+build:
+  type: python
+  entrypoint: server.py
+  dependencies:
+  - mcp>=1.0.0
+runtime:
+  python: '>=3.10'
