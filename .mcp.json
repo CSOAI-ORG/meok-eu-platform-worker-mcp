@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "meok-eu-platform-worker-mcp": {
+      "command": "uvx",
+      "args": [
+        "meok-eu-platform-worker-mcp"
+      ]
+    }
+  }
+}
