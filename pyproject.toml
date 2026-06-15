@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "meok-eu-platform-worker-mcp"
-version = "1.0.0"
+version = "1.0.1"
 description = "EU Platform Workers Directive (2024/2831) compliance — employment-status presumption, algorithmic-management disclosure, human oversight of significant decisions, worker data protection, member-state transposition tracking, misclassification-risk forecast. Targets EU gig-economy platforms (€20bn market). Transposition deadline 2 Dec 2026. By MEOK AI Labs."
 readme = "README.md"
 license = { text = "MIT" }
@@ -28,3 +28,22 @@ meok-eu-platform-worker-mcp = "server:main"
 
 [tool.setuptools]
 py-modules = ["server"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+
+[tool.ruff]
+line-length = 100
+select = ["E", "F", "W", "I", "N"]
+ignore = ["E501"]
+
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
+warn_return_any = true
+warn_unused_Configs = true
+disallow_untyped_defs = true
+
